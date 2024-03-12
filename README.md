@@ -8,7 +8,7 @@ This code snippet collection demonstrates a fundamental MRI pre-processing pipel
 
 * MRIcroGL (https://github.com/rordenlab/MRIcroGL) 
 
-**Code Snippets:**
+##Code Snippets:
 
 **1. Dicom2nii Conversion (dicom2nii.sh)**
 
@@ -23,7 +23,7 @@ This script employs the `dcm2niix` tool from MRIcroGL  to convert medical images
 **Code:**
 
 ```
-# dicom2niix command to convert DICOM files to Nifti format
+* dicom2niix command to convert DICOM files to Nifti format
 /home/alielecen/Project/MRIcroGL_linux/MRIcroGL/Resources/dcm2niix -m n -p y -z y "/media/alielecen/A65CA91C5CA8E86F/Graduate Research/steps/12)Dataset/Hc_deep/3106"
 ```
 **Or this process can be done with MRIcroGL GUI:**<be>
