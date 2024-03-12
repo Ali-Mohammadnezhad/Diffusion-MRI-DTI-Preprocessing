@@ -34,16 +34,15 @@ This code snippet collection demonstrates a fundamental MRI pre-processing pipel
 
 This script employs the `dcm2niix` tool from MRIcroGL  to convert medical images stored in DICOM format (commonly used in medical imaging) to the Nifti format, which is widely utilized for neuroimaging analysis. Nifti format offers advantages in flexibility and compatibility with various neuroimaging software tools.  The flags used with `dcm2niix` are explained below:
 
-* `-m n`: Outputs the image in Nifti format.
-* `-p y`: Preserves side information associated with the original DICOM images.
-* `-z y`: Decompresses the image data for storage efficiency.
-
 **Code:**
 
 ```
 * dicom2niix command to convert DICOM files to Nifti format
 /home/alielecen/Project/MRIcroGL_linux/MRIcroGL/Resources/dcm2niix -m n -p y -z y "/media/alielecen/A65CA91C5CA8E86F/Graduate Research/steps/12)Dataset/Hc_deep/3106"
 ```
+* `-m n`: Outputs the image in Nifti format.
+* `-p y`: Preserves side information associated with the original DICOM images.
+* `-z y`: Decompresses the image data for storage efficiency.
 **Or this process can be done with MRIcroGL GUI:<be>**
 
 ![MRIcroGL](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/b0cca031-fed4-4d23-a32a-44a23c93f91f)
