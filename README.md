@@ -14,7 +14,7 @@ This code snippet collection demonstrates a fundamental MRI pre-processing pipel
 
 **Description:**
 
-This script employs the `dcm2niix` tool to convert medical images stored in DICOM format (commonly used in medical imaging) to the Nifti format, which is widely utilized for neuroimaging analysis. Nifti format offers advantages in flexibility and compatibility with various neuroimaging software tools.  The flags used with `dcm2niix` are explained below:
+This script employs the `dcm2niix` tool from MRIcroGL  to convert medical images stored in DICOM format (commonly used in medical imaging) to the Nifti format, which is widely utilized for neuroimaging analysis. Nifti format offers advantages in flexibility and compatibility with various neuroimaging software tools.  The flags used with `dcm2niix` are explained below:
 
 * `-m n`: Outputs the image in Nifti format.
 * `-p y`: Preserves side information associated with the original DICOM images.
