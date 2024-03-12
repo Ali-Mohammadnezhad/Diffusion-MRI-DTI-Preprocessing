@@ -6,7 +6,7 @@ This code snippet collection demonstrates a fundamental MRI pre-processing pipel
 
 * FSL (https://www.fmrib.ox.ac.uk/fsl)
 ```markdown
-![Image description](Imges/image.png) 
+[Image description](Imges/image.png) 
 ```
 * MRIcroGL (https://github.com/rordenlab/MRIcroGL) 
 
