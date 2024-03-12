@@ -33,6 +33,8 @@ This script employs the `dcm2niix` tool from MRIcroGL  to convert medical images
 
 
 **Looping through all DICOM files in a directory for conversion**
+```
 for FILE in *; do
   /home/alielecen/Project/MRIcroGL_linux/MRIcroGL/Resources/dcm2niix -m n -p y -z y "/media/alielecen/A65CA91C5CA8E86F/Graduate Research/steps/12)Dataset/Hc_deep/Unzip_files/$FILE"
 done
+```
