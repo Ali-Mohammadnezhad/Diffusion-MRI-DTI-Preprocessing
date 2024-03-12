@@ -8,7 +8,7 @@ This code snippet collection demonstrates a fundamental MRI pre-processing pipel
 
 * MRIcroGL (https://github.com/rordenlab/MRIcroGL) 
 
-##Code Snippets:
+## Code Snippets:
 
 **1. Dicom2nii Conversion (dicom2nii.sh)**
 
