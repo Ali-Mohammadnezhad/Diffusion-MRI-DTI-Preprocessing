@@ -1,6 +1,6 @@
 ## MRI Pre-processing Pipeline for Diffusion Tensor Imaging (DTI) Analysis
 
-This code snippet collection demonstrates a fundamental MRI pre-processing pipeline specifically tailored for DTI data analysis. The scripts leverage the FSL software library (https://www.fmrib.ox.ac.uk/fsl) to prepare your neuroimaging data for further analysis.
+This code snippet collection demonstrates a fundamental MRI pre-processing pipeline specifically tailored for DTI data analysis. The scripts leverage the FSL software library (https://www.fmrib.ox.ac.uk/fsl) to prepare neuroimaging data for further analysis.
 
 **Software:**
 
