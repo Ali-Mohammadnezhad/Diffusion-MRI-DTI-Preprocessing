@@ -3,19 +3,19 @@
 This section outlines a recommended workflow for pre-processing Diffusion Tensor Imaging (DTI) data, primarily designed for Linux systems. This pipeline utilizes a series of tools to prepare your DTI data for further analysis and extract meaningful information about the brain's white matter structure.
 
 * DICOM to Nifti Conversion (dcm2nii):
-We begin by converting your raw DTI data from DICOM format, commonly used in medical imaging, to the _Nifti_ format. This conversion is typically accomplished using the dcm2nii tool. Nifti offers advantages in terms of flexibility and compatibility with various neuroimaging analysis software compared to DICOM.
+We begin by converting your raw DTI data from **DICOM** format, commonly used in medical imaging, to the **Nifti** format. This conversion is typically accomplished using the dcm2nii tool. Nifti offers advantages in terms of flexibility and compatibility with various neuroimaging analysis software compared to DICOM.
 
 * Brain Extraction (BET):
 After conversion, the BET (Brain Extraction Tool) software takes center stage. Its role is to isolate the brain tissue by meticulously removing the skull and other non-brain elements from the image data. This creates a brain mask, ensuring subsequent analyses focus on the brain region of interest.
 
 * Eddy Current Correction (eddy_correct):
-DTI data can be susceptible to distortions arising from eddy currents within the MRI scanner. The eddy_correct command tackles this issue by correcting for these distortions, leading to a more accurate representation of the underlying diffusion properties within the brain.
+DTI data can be susceptible to distortions arising from eddy currents within the MRI scanner. The **eddy_correct** command tackles this issue by correcting for these distortions, leading to a more accurate representation of the underlying diffusion properties within the brain.
 
 * B-vector Adjustment:
 DTI analysis heavily relies on information encoded in "b-vectors." These vectors describe the diffusion gradients applied during the DTI acquisition process. This step ensures proper alignment and interpretation of the b-vector data, which is crucial for accurate analysis.
 
 * DTI Parameter Estimation (dtifit):
-Finally, we leverage the dtifit tool. This powerful tool utilizes the pre-processed data to estimate various diffusion parameters relevant to white matter analysis. These parameters include Fractional Anisotropy (FA) and Mean Diffusivity (MD), which provide valuable insights into the microstructure and organization of white matter tracts within the brain.
+Finally, we leverage the dtifit tool. This powerful tool utilizes the pre-processed data to estimate various diffusion parameters relevant to white matter analysis. These parameters include Fractional Anisotropy **(FA)** and Mean Diffusivity **(MD)**, which provide valuable insights into the microstructure and organization of white matter tracts within the brain.
 By following these recommended steps and employing the mentioned tools, you can effectively pre-process your DTI data, setting the stage for robust and informative analysis of the brain's white matter structure.
 
 
