@@ -14,7 +14,7 @@ DTI data can be susceptible to distortions arising from eddy currents within the
 * B-vector Adjustment:
 DTI analysis heavily relies on information encoded in "b-vectors." These vectors describe the diffusion gradients applied during the DTI acquisition process. This step ensures proper alignment and interpretation of the b-vector data, which is crucial for accurate analysis.
 
-*DTI Parameter Estimation (dtifit):
+* DTI Parameter Estimation (dtifit):
 Finally, we leverage the dtifit tool. This powerful tool utilizes the pre-processed data to estimate various diffusion parameters relevant to white matter analysis. These parameters include Fractional Anisotropy (FA) and Mean Diffusivity (MD), which provide valuable insights into the microstructure and organization of white matter tracts within the brain.
 By following these recommended steps and employing the mentioned tools, you can effectively pre-process your DTI data, setting the stage for robust and informative analysis of the brain's white matter structure.
 
