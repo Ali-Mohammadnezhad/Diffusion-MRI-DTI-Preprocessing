@@ -5,7 +5,7 @@ This code snippet collection demonstrates a fundamental MRI pre-processing pipel
 **Software:**
 
 * FSL (https://www.fmrib.ox.ac.uk/fsl)
-DICOM to Nifti Conversion: ![image](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/4ead6fee-eb22-4148-a5bb-26ab6ebdc2d7)
+![Image description](path/to/your/image.png)
 
 * MRIcroGL (https://github.com/rordenlab/MRIcroGL) 
 
