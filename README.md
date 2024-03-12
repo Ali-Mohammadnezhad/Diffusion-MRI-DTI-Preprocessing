@@ -38,7 +38,7 @@ This code snippet collection demonstrates a fundamental MRI pre-processing pipel
 
 ## Code Snippets:
 
-## 1. Dicom2nii Conversion (dicom2nii.sh)**
+## 1. Dicom2nii Conversion (dicom2nii.sh)
 
 **Description:**
 
