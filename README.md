@@ -2,7 +2,7 @@
 
 This code snippet collection demonstrates a fundamental MRI pre-processing pipeline specifically tailored for DTI data analysis. The scripts leverage the FSL software library (https://www.fmrib.ox.ac.uk/fsl) to prepare neuroimaging data for further analysis.
 
-*Software:*
+##Software:##
 
 * FSL (https://www.fmrib.ox.ac.uk/fsl).<br>
 
