@@ -3,7 +3,7 @@
 This section outlines a recommended workflow for pre-processing Diffusion Tensor Imaging (DTI) data, primarily designed for Linux systems. This pipeline utilizes a series of tools to prepare your DTI data for further analysis and extract meaningful information about the brain's white matter structure.
 
 * DICOM to Nifti Conversion (dcm2nii):
-We begin by converting your raw DTI data from DICOM format, commonly used in medical imaging, to the Nifti format. This conversion is typically accomplished using the dcm2nii tool. Nifti offers advantages in terms of flexibility and compatibility with various neuroimaging analysis software compared to DICOM.
+We begin by converting your raw DTI data from DICOM format, commonly used in medical imaging, to the _Nifti_ format. This conversion is typically accomplished using the dcm2nii tool. Nifti offers advantages in terms of flexibility and compatibility with various neuroimaging analysis software compared to DICOM.
 
 * Brain Extraction (BET):
 After conversion, the BET (Brain Extraction Tool) software takes center stage. Its role is to isolate the brain tissue by meticulously removing the skull and other non-brain elements from the image data. This creates a brain mask, ensuring subsequent analyses focus on the brain region of interest.
