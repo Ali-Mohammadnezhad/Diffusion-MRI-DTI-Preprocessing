@@ -48,7 +48,7 @@ This script employs the `dcm2niix` tool from MRIcroGL  to convert medical images
 
 ![MRIcroGL](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/b0cca031-fed4-4d23-a32a-44a23c93f91f)
 
-
+Extracting Skull and Brain Mask (bet.sh)
 
 **Looping through all DICOM files in a directory for conversion**
 ```
@@ -56,3 +56,4 @@ for FILE in *; do
   /home/alielecen/Project/MRIcroGL_linux/MRIcroGL/Resources/dcm2niix -m n -p y -z y "/media/alielecen/A65CA91C5CA8E86F/Graduate Research/steps/12)Dataset/Hc_deep/Unzip_files/$FILE"
 done
 ```
+## 1. Extracting Skull and Brain Mask (bet.sh)
