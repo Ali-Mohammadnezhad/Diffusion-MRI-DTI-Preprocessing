@@ -5,8 +5,8 @@ This code snippet collection demonstrates a fundamental MRI pre-processing pipel
 **Software:**
 
 * FSL (https://www.fmrib.ox.ac.uk/fsl)
-![image](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/5651f73b-4ca9-404c-a4b1-b28ced970af4)
-
+![Image description](![image](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/071c5506-1110-4a13-9cc9-00036658ad37)
+)
 * MRIcroGL (https://github.com/rordenlab/MRIcroGL) 
 
 **Code Snippets**
