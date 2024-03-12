@@ -57,3 +57,17 @@ for FILE in *; do
 done
 ```
 ## 1. Extracting Skull and Brain Mask (bet.sh)
+**Description:**
+
+This code snippet collection (assuming it's part of a larger script named bet.sh) performs skull extraction and brain mask generation on your DTI data.
+
+* image: This is  the name of your DTI image.
+* betted_image: This is the name of the output file .
+* -f 0.3: This sets the fractional intensity threshold for brain tissue segmentation.
+* -m: This flag instructs Bet to create a brain mask.
+
+**Code:**
+
+```
+bet image betted_image -f 0.3 -m
+```
