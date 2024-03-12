@@ -16,7 +16,7 @@ DTI analysis heavily relies on information encoded in "b-vectors." These vectors
 
 * ## DTI Parameter Estimation (dtifit):<br>
 Finally, we leverage the dtifit tool. This powerful tool utilizes the pre-processed data to estimate various diffusion parameters relevant to white matter analysis. These parameters include Fractional Anisotropy **(FA)** and Mean Diffusivity **(MD)**, which provide valuable insights into the microstructure and organization of white matter tracts within the brain.
-By following these recommended steps and employing the mentioned tools, you can effectively pre-process your DTI data, setting the stage for robust and informative analysis of the brain's white matter structure.
+By following these recommended steps and employing the mentioned tools, you can effectively pre-process your DTI data, setting the stage for robust and informative analysis of the brain's white matter structure.<br>
 
 This code snippet collection demonstrates a fundamental MRI pre-processing pipeline specifically tailored for DTI data analysis. The scripts leverage the FSL software library (https://www.fmrib.ox.ac.uk/fsl) to prepare neuroimaging data for further analysis.
 
