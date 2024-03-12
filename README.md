@@ -1,4 +1,4 @@
-## MRI Pre-processing Pipeline for Diffusion Tensor Imaging (DTI) Analysis
+# MRI Pre-processing Pipeline for Diffusion Tensor Imaging (DTI) Analysis
 
 This code snippet collection demonstrates a fundamental MRI pre-processing pipeline specifically tailored for DTI data analysis. The scripts leverage the FSL software library (https://www.fmrib.ox.ac.uk/fsl) to prepare neuroimaging data for further analysis.
 
@@ -30,7 +30,7 @@ This script employs the `dcm2niix` tool to convert medical images stored in DICO
 
 
 
-# Looping through all DICOM files in a directory for conversion
+## Looping through all DICOM files in a directory for conversion
 for FILE in *; do
   /home/alielecen/Project/MRIcroGL_linux/MRIcroGL/Resources/dcm2niix -m n -p y -z y "/media/alielecen/A65CA91C5CA8E86F/Graduate Research/steps/12)Dataset/Hc_deep/Unzip_files/$FILE"
 done
