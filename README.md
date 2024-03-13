@@ -129,3 +129,6 @@ dtifit -k data -o output -m mask -r bvecs -b bvals
 * `basename_MD` - Mean Diffusivity
 * `basename_FA` - Fractional anisotropy
 * `basename_S0` - raw T2 signal with no diffusion weighting
+  
+![image](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/b58b9c5e-2869-45da-bdef-c5b4483f3def)
+
