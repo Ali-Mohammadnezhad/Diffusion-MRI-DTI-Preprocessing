@@ -120,12 +120,12 @@ dtifit -k data -o output -m mask -r bvecs -b bvals
 * `-b bvals`: This option specifies the b-value file. B-values represent the diffusion weighting applied during DWI acquisition and are used in DTI calculations.<be>
 
 ** Outputs of DTIFit:<br>
-basename_V1 - 1st eigenvector
-basename_V2 - 2nd eigenvector
-basename_V3 - 3rd eigenvector
-basename_L1 - 1st eigenvalue
-basename_L2 - 2nd eigenvalue
-basename_L3 - 3rd eigenvalue
-basename_MD - Mean Diffusivity
-basename_FA - Fractional anisotropy
-basename_S0 - raw T2 signal with no diffusion weighting
+* basename_V1 - 1st eigenvector
+* basename_V2 - 2nd eigenvector
+* basename_V3 - 3rd eigenvector
+* basename_L1 - 1st eigenvalue
+* basename_L2 - 2nd eigenvalue
+* basename_L3 - 3rd eigenvalue
+* basename_MD - Mean Diffusivity
+* basename_FA - Fractional anisotropy
+* basename_S0 - raw T2 signal with no diffusion weighting
