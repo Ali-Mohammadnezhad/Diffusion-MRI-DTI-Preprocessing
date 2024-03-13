@@ -117,8 +117,9 @@ dtifit -k data -o output -m mask -r bvecs -b bvals
 * `-o output`: This option specifies the output filename where the DTI results will be stored.
 * `-m mask`: This option defines a mask file. This mask is a binary image that restricts the DTI analysis to specific regions of interest (ROIs) within the brain.
 * `-r bvecs`: This option specifies the b-vector file. B-vectors encode the diffusion directions within the DWI data and are crucial for DTI calculations.
-* `-b bvals`: This option specifies the b-value file. B-values represent the diffusion weighting applied during DWI acquisition and are used in DTI calculations.<br>
-Outputs of DTIFit:<br>
+* `-b bvals`: This option specifies the b-value file. B-values represent the diffusion weighting applied during DWI acquisition and are used in DTI calculations.<be>
+
+** Outputs of DTIFit:<br>
 basename_V1 - 1st eigenvector
 basename_V2 - 2nd eigenvector
 basename_V3 - 3rd eigenvector
