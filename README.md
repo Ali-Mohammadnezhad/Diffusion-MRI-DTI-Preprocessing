@@ -88,3 +88,16 @@ eddy_correct data data_corrected def
 * `data`:This specifies the input diffusion-weighted imaging (DWI) data file. This is typically a 4D NIfTI image containing multiple diffusion directions.
 * `data_corrected`:This specifies the corrected output diffusion-weighted imaging (DWI) data file
 * `def`:This option allows you to specify a reference volume within the DWI data for image registration during correction. By default (0), the first volume is used.
+
+## 4. bvecs adjustment (fdt_rotate_bvecs.sh)
+
+**Description:**
+ For rotating b-vectors (directions of diffusion in diffusion MRI) after eddy current correction.
+
+ **Code:**
+```
+bash fdt_rotate_bvecs.sh bvecs bvecs_rotated data_corrected.ecclog
+```
+* `bvecs `: the original b-vector file.
+* `bvecs_rotated `:the rotated b-vector file
+* `data_corrected.ecclog `: the file that is created after eddy current correction
