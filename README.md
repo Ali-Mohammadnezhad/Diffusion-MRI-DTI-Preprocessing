@@ -118,3 +118,13 @@ dtifit -k data -o output -m mask -r bvecs -b bvals
 * `-m mask`: This option defines a mask file. This mask is a binary image that restricts the DTI analysis to specific regions of interest (ROIs) within the brain.
 * `-r bvecs`: This option specifies the b-vector file. B-vectors encode the diffusion directions within the DWI data and are crucial for DTI calculations.
 * `-b bvals`: This option specifies the b-value file. B-values represent the diffusion weighting applied during DWI acquisition and are used in DTI calculations.
+Outputs of DTIFit:
+basename_V1 - 1st eigenvector
+basename_V2 - 2nd eigenvector
+basename_V3 - 3rd eigenvector
+basename_L1 - 1st eigenvalue
+basename_L2 - 2nd eigenvalue
+basename_L3 - 3rd eigenvalue
+basename_MD - Mean Diffusivity
+basename_FA - Fractional anisotropy
+basename_S0 - raw T2 signal with no diffusion weighting
