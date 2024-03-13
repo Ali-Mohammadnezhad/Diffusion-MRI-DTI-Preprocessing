@@ -113,8 +113,8 @@ bash fdt_rotate_bvecs.sh bvecs bvecs_rotated data_corrected.ecclog
  ```
 dtifit -k data -o output -m mask -r bvecs -b bvals
 ```
-*`-k data`: This option specifies the input diffusion-weighted imaging (DWI) data file.
-*`-o output`: This option specifies the output filename where the DTI results will be stored.
-*`-m mask`: This option defines a mask file. This mask is a binary image that restricts the DTI analysis to specific regions of interest (ROIs) within the brain.
-*`-r bvecs`: This option specifies the b-vector file. B-vectors encode the diffusion directions within the DWI data and are crucial for DTI calculations.
-*`-b bvals`: This option specifies the b-value file. B-values represent the diffusion weighting applied during DWI acquisition and are used in DTI calculations.
+* `-k data`: This option specifies the input diffusion-weighted imaging (DWI) data file.
+* `-o output`: This option specifies the output filename where the DTI results will be stored.
+* `-m mask`: This option defines a mask file. This mask is a binary image that restricts the DTI analysis to specific regions of interest (ROIs) within the brain.
+* `-r bvecs`: This option specifies the b-vector file. B-vectors encode the diffusion directions within the DWI data and are crucial for DTI calculations.
+* `-b bvals`: This option specifies the b-value file. B-values represent the diffusion weighting applied during DWI acquisition and are used in DTI calculations.
