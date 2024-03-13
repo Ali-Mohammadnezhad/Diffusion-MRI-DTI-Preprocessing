@@ -132,7 +132,9 @@ dtifit -k data -o output -m mask -r bvecs -b bvals
   
 ![image](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/b58b9c5e-2869-45da-bdef-c5b4483f3def)
 
-| Image 1 | Image 2 | Image 1 | Image 2 | 
-|---|---|
+| FA | MD | RD | AD | 
+|---|---|---|---|
 |![image])|![image]()|
-
+$𝐹𝐴 =
+1√(𝜆1 − 𝜆̂)2 + (𝜆2 − 𝜆̂)2 + (𝜆3 − 𝜆̂)2
+√2√𝜆12 + 𝜆22 + 𝜆32$
