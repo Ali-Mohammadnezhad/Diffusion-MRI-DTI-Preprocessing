@@ -28,7 +28,7 @@ This code snippet collection demonstrates a fundamental MRI pre-processing pipel
 
 ## Code Snippets:
 
-## 1. Dicom2nii Conversion (dicom2nii.sh)
+## 1. Dicom2nii Conversion (dicom2nii)
 
 **Description:**
 
@@ -55,7 +55,7 @@ for FILE in *; do
   /home/alielecen/Project/MRIcroGL_linux/MRIcroGL/Resources/dcm2niix -m n -p y -z y "/media/alielecen/A65CA91C5CA8E86F/Graduate Research/steps/12)Dataset/Hc_deep/Unzip_files/$FILE"
 done
 ```
-## 1. Extracting Skull and Brain Mask (bet.sh)
+## 2. Extracting Skull and Brain Mask 
 
   ![Shot 2024-03-13 11;20;08](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/0dd36876-3875-49ed-b001-1711466fd344)
 
@@ -76,3 +76,15 @@ bet image betted_image -f 0.3 -m
  ```
 for File in *; do bet  $File $File -m; done
  ```
+## 3. Eddy Current correction (eddy_correct)
+
+**Description:**
+The **eddy_correct** command in FSL offers various options to control the eddy current correction process.
+
+**Code:**
+```
+eddy_correct data data_corrected def
+```
+*`data`:This specifies the input diffusion-weighted imaging (DWI) data file. This is typically a 4D NIfTI image containing multiple diffusion directions.
+*`data_corrected`:This specifies the corrected output diffusion-weighted imaging (DWI) data file
+*`def`:This option allows you to specify a reference volume within the DWI data for image registration during correction. By default (0), the first volume is used.
