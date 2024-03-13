@@ -26,7 +26,7 @@ This code snippet collection demonstrates a fundamental MRI pre-processing pipel
 
 * MRIcroGL (https://github.com/rordenlab/MRIcroGL)
   
-* Bvecs rotation [fdt_rotate_bvecs.sh](https://github.com/QTIM-Lab/qtim_tools/blob/master/qtim_tools/external/fdt_rotate_bvecs.sh)
+* Bvecs rotation ([fdt_rotate_bvecs.sh](https://github.com/QTIM-Lab/qtim_tools/blob/master/qtim_tools/external/fdt_rotate_bvecs.sh))
 
 ## Code Snippets:
 
