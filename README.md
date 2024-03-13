@@ -134,5 +134,9 @@ dtifit -k data -o output -m mask -r bvecs -b bvals
 
 | FA | MD | RD | AD | 
 |---|---|---|---|
-|$$ FA=(1√((λ_1-λ ̂ )^2+(λ_2-λ ̂ )^2+(λ_3-λ ̂ )^2 ))/(√2  √(〖λ_1〗^2+〖λ_2〗^2+〖λ_3〗^2 )) $$| | | |
+|![Shot 2024-03-13 18;42;06](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/fce60f31-4255-436d-aa47-641218fba76c)
+| ![Shot 2024-03-13 18;42;19](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/6d101b15-5ef4-44db-860f-3e9ff08d687a)
+|![Shot 2024-03-13 18;42;27](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/b7a40ec0-2e70-4efc-b333-5ae16f048f2c)
+ |![Shot 2024-03-13 18;42;32](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/e3bbd2bd-60ca-4a8b-98ce-b066601a3184)
+ |
 
