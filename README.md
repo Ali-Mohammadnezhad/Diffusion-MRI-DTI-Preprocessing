@@ -20,11 +20,13 @@ By following these recommended steps and employing the mentioned tools, you can 
 
 This code snippet collection demonstrates a fundamental MRI pre-processing pipeline specifically tailored for DTI data analysis. The scripts leverage the FSL software library (https://www.fmrib.ox.ac.uk/fsl) to prepare neuroimaging data for further analysis.
 
-## Software:
+## Software and Commands:
 
 * FSL (https://www.fmrib.ox.ac.uk/fsl).<br>
 
-* MRIcroGL (https://github.com/rordenlab/MRIcroGL) 
+* MRIcroGL (https://github.com/rordenlab/MRIcroGL)
+  
+* [fdt_rotate_bvecs.sh](https://github.com/QTIM-Lab/qtim_tools/blob/master/qtim_tools/external/fdt_rotate_bvecs.sh)
 
 ## Code Snippets:
 
@@ -89,7 +91,7 @@ eddy_correct data data_corrected def
 * `data_corrected`:This specifies the corrected output diffusion-weighted imaging (DWI) data file
 * `def`:This option allows you to specify a reference volume within the DWI data for image registration during correction. By default (0), the first volume is used.
 
-## 4. bvecs adjustment ([fdt_rotate_bvecs.sh](https://github.com/QTIM-Lab/qtim_tools/blob/master/qtim_tools/external/fdt_rotate_bvecs.sh))
+## 4. bvecs adjustment (fdt_rotate_bvecs.sh)
 
 **Description:**
  For rotating b-vectors (directions of diffusion in diffusion MRI) after eddy current correction.
