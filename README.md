@@ -71,5 +71,8 @@ bet image betted_image -f 0.3 -m
 * `betted_image`: This is the name of the output file .
 * `-f 0.3`: This sets the fractional intensity threshold for brain tissue segmentation.
 * `-m`: This flag instructs Bet to create a brain mask.
-
-
+* 
+**Looping through all files in a directory for applying Bet**
+ ```
+for File in *; do bet  $File $File -m; done
+ ```
