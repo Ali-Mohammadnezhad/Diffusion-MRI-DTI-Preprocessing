@@ -56,11 +56,10 @@ for FILE in *; do
 done
 ```
 ## 1. Extracting Skull and Brain Mask (bet.sh)
-**Description:**
 
   ![Shot 2024-03-13 11;20;08](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/0dd36876-3875-49ed-b001-1711466fd344)
 
-
+**Description:**
 This code snippet collection (assuming it's part of a larger script named bet.sh) performs skull extraction and brain mask generation on your DTI data.
 
 **Code:**
