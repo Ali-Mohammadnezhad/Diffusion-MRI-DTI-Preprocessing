@@ -69,3 +69,6 @@ bet image betted_image -f 0.3 -m
 * `betted_image`: This is the name of the output file .
 * `-f 0.3`: This sets the fractional intensity threshold for brain tissue segmentation.
 * `-m`: This flag instructs Bet to create a brain mask.
+
+  ![Shot 2024-03-13 11;20;08](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/0dd36876-3875-49ed-b001-1711466fd344)
+
