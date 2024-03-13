@@ -71,7 +71,7 @@ bet image betted_image -f 0.3 -m
 * `betted_image`: This is the name of the output file .
 * `-f 0.3`: This sets the fractional intensity threshold for brain tissue segmentation.
 * `-m`: This flag instructs Bet to create a brain mask.
-* 
+  
 **Looping through all files in a directory for applying Bet**
  ```
 for File in *; do bet  $File $File -m; done
@@ -85,6 +85,6 @@ The **eddy_correct** command in FSL offers various options to control the eddy c
 ```
 eddy_correct data data_corrected def
 ```
-*`data`:This specifies the input diffusion-weighted imaging (DWI) data file. This is typically a 4D NIfTI image containing multiple diffusion directions.
-*`data_corrected`:This specifies the corrected output diffusion-weighted imaging (DWI) data file
-*`def`:This option allows you to specify a reference volume within the DWI data for image registration during correction. By default (0), the first volume is used.
+* `data`:This specifies the input diffusion-weighted imaging (DWI) data file. This is typically a 4D NIfTI image containing multiple diffusion directions.
+* `data_corrected`:This specifies the corrected output diffusion-weighted imaging (DWI) data file
+* `def`:This option allows you to specify a reference volume within the DWI data for image registration during correction. By default (0), the first volume is used.
