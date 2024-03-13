@@ -134,5 +134,5 @@ dtifit -k data -o output -m mask -r bvecs -b bvals
 
 | Image 1 | Image 2 |
 |---|---|
-|!(https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/95533b80-eed6-42a2-904b-cd363767df38))|!((https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/d3727d08-111d-47ed-9f1f-65843f776098))|
+|![image](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/95533b80-eed6-42a2-904b-cd363767df38))|![image]((https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/d3727d08-111d-47ed-9f1f-65843f776098)|
 
