@@ -103,3 +103,18 @@ bash fdt_rotate_bvecs.sh bvecs bvecs_rotated data_corrected.ecclog
 * `bvecs `: the original b-vector file.
 * `bvecs_rotated `:the rotated b-vector file
 * `data_corrected.ecclog `: the file that is created after eddy current correction
+
+## 5. Tensor Calculation (DTIFit)
+
+**Description:**
+**DTIFit** analyzes diffusion MRI data voxel by voxel, creating a model that describes how water molecules move within the brain tissue. This analysis usually requires the data to be cleaned up beforehand (pre-processed) and corrected for distortions (eddy current correction).
+
+ **Code:**
+ ```
+dtifit -k data -o output -m mask -r bvecs -b bvals
+```
+*`-k data`: This option specifies the input diffusion-weighted imaging (DWI) data file.
+*`-o output`: This option specifies the output filename where the DTI results will be stored.
+*`-m mask`: This option defines a mask file. This mask is a binary image that restricts the DTI analysis to specific regions of interest (ROIs) within the brain.
+*`-r bvecs`: This option specifies the b-vector file. B-vectors encode the diffusion directions within the DWI data and are crucial for DTI calculations.
+*`-b bvals`: This option specifies the b-value file. B-values represent the diffusion weighting applied during DWI acquisition and are used in DTI calculations.
