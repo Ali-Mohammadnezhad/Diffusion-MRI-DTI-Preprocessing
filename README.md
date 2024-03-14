@@ -134,6 +134,6 @@ dtifit -k data -o output -m mask -r bvecs -b bvals
 
 
 
-| FA | MD | RD | AD |
-|-----|-----|-----|-----|
+  | FA | MD | RD | AD |
+  |-----|-----|-----|-----|
 | $\Large\text{FA} = \frac{\sqrt{\frac{1}{2}[(\lambda_1 - \text{MD})^2 + (\lambda_2 - \text{MD})^2 + (\lambda_3 - \text{MD})^2]}}{\sqrt{\lambda_1^2 + \lambda_2^2 + \lambda_3^2}}$ | $\Large\text{MD} = \frac{\lambda_1 + \lambda_2 + \lambda_3}{3}$ | $\Large\text{RD} = \frac{\lambda_2 + \lambda_3}{2}$ | $\Large\text{AD} = \lambda_1$ |
