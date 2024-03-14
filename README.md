@@ -132,7 +132,7 @@ dtifit -k data -o output -m mask -r bvecs -b bvals
   
 ![image](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/b58b9c5e-2869-45da-bdef-c5b4483f3def)
 
-$ \frac{FA}{\sqrt{2\sqrt{{\lambda_1}^2 + {\lambda_2}^2 + {\lambda_3}^2}}} = \frac{1}{\sqrt{(\lambda_1 - \hat{\lambda})^2 + (\lambda_2 - \hat{\lambda})^2 + (\lambda_3 - \hat{\lambda})^2}} $
+
 ```math
 \frac{FA}{\sqrt{2\sqrt{{\lambda_1}^2 + {\lambda_2}^2 + {\lambda_3}^2}}} = \frac{1}{\sqrt{(\lambda_1 - \hat{\lambda})^2 + (\lambda_2 - \hat{\lambda})^2 + (\lambda_3 - \hat{\lambda})^2}}
 ```math
