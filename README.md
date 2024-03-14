@@ -129,11 +129,15 @@ dtifit -k data -o output -m mask -r bvecs -b bvals
 * `basename_MD` - Mean Diffusivity
 * `basename_FA` - Fractional anisotropy
 * `basename_S0` - raw T2 signal with no diffusion weighting
-  
-![image](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/b58b9c5e-2869-45da-bdef-c5b4483f3def)
 
+Below are some of the scalars we can obtain :
 
    | FA | MD | RD | AD |
 |-------|-----|-----|-------|
 | $\Large\text{FA} = \frac{\sqrt{\frac{1}{2}[(\lambda_1 - \text{MD})^2 + (\lambda_2 - \text{MD})^2 + (\lambda_3 - \text{MD})^2]}}{\sqrt{\lambda_1^2 + \lambda_2^2 + \lambda_3^2}}$ | $\Large\text{MD} = \frac{\lambda_1 + \lambda_2 + \lambda_3}{3}$ | $\Large\text{RD} = \frac{\lambda_2 + \lambda_3}{2}$ | $\Large\text{AD} = \lambda_1$ |   
+
+  
+![image](https://github.com/Ali-Mohammadnezhad/Diffusion-MRI-DTI-Preprocessing/assets/110347490/b58b9c5e-2869-45da-bdef-c5b4483f3def)
+
+
 
