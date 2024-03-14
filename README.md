@@ -130,7 +130,7 @@ dtifit -k data -o output -m mask -r bvecs -b bvals
 * `basename_FA` - Fractional anisotropy
 * `basename_S0` - raw T2 signal with no diffusion weighting
 
-**Below are some of the scalars we can obtain:**
+**Below are some of the scalars we can get:**
 
    | FA | MD | RD | AD |
 |-------|-----|-----|-------|
