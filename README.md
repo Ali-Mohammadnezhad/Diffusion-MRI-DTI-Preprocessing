@@ -141,10 +141,6 @@ $\Large\text{RD} = \frac{\lambda_2 + \lambda_3}{2}$
 
 $\Large\text{AD} = \lambda_1$
 
-$\begin{array}{|c|c|c|c|}
-\hline
-\text{FA} & \text{MD} & \text{RD} & \text{AD} \\
-\hline
-\frac{\sqrt{\frac{1}{2}\left[(\lambda_1 - \text{MD})^2 + (\lambda_2 - \text{MD})^2 + (\lambda_3 - \text{MD})^2\right]}}{\sqrt{\lambda_1^2 + \lambda_2^2 + \lambda_3^2}} & \frac{\lambda_1 + \lambda_2 + \lambda_3}{3} & \frac{\lambda_2 + \lambda_3}{2} & \lambda_1 \\
-\hline
-\end{array}$
+| FA | MD | RD | AD |
+|----|----|----|----|
+| $\Large\text{FA} = \frac{\sqrt{\frac{1}{2}[(\lambda_1 - \text{MD})^2 + (\lambda_2 - \text{MD})^2 + (\lambda_3 - \text{MD})^2]}}{\sqrt{\lambda_1^2 + \lambda_2^2 + \lambda_3^2}}$ | $\Large\text{MD} = \frac{\lambda_1 + \lambda_2 + \lambda_3}{3}$ | $\Large\text{RD} = \frac{\lambda_2 + \lambda_3}{2}$ | $\Large\text{AD} = \lambda_1$ |
